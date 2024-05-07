@@ -2,7 +2,10 @@
 <html lang="en">
 
 <!--HEAD BEGIN-->
-<?php include 'pages/head.php';?>
+<?php 
+  $title = "INICIO";
+  include 'pages/head.php';
+?>
 <!--HEADN END-->
 
 <body>
@@ -26,18 +29,18 @@
         <div class="row">
 
           <!--SALES OVERVIEW CHART BEGIN-->
-          <?php include 'pages/sales_overview_chart.php';?>
+          <?php //include 'pages/sales_overview_chart.php';?>
           <!--SALES OVERVIEW CHART END-->
 
           <div class="col-lg-4"-->
             <div class="row">
 
               <!--YEARLY BREACKOUT BEGIN-->
-              <?php include 'pages/yearly_breackout.php';?>
+              <?php //include 'pages/yearly_breackout.php';?>
               <!--YEARLY BREACKOUT END-->
 
               <!--MONTLY EARNINGS BEGIN-->
-              <?php include 'pages/monthly_earnings.php'; ?>
+              <?php //include 'pages/monthly_earnings.php'; ?>
               <!--MONTLY EARNINGS END-->
 
             </div>
@@ -46,7 +49,7 @@
         <div class="row">
 
           <!--RECENT TRANSACTIONS BEGIN-->
-          <?php include 'pages/recent_transactions.php';?>
+          <?php //include 'pages/recent_transactions.php';?>
           <!--RECENT TRANSACTIONS END-->
 
           <!--RECENT TRANSACTION TABLE BEGIN-->
@@ -58,7 +61,7 @@
         <div class="row">
 
           <!--PRODUCT OVERVIEW BEGIN-->
-          <?php include 'pages/product_overview.php';?>
+          <?php //include 'pages/product_overview.php';?>
           <!--PRODUCT OVERVIEW END-->
 
         </div>
