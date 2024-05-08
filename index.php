@@ -25,46 +25,10 @@
         <!--HEADER END-->
         
       <div class="container-fluid">
-        <!--  Row 1 -->
-        <div class="row">
 
-          <!--SALES OVERVIEW CHART BEGIN-->
-          <?php //include 'pages/sales_overview_chart.php';?>
-          <!--SALES OVERVIEW CHART END-->
-
-          <div class="col-lg-4"-->
-            <div class="row">
-
-              <!--YEARLY BREACKOUT BEGIN-->
-              <?php //include 'pages/yearly_breackout.php';?>
-              <!--YEARLY BREACKOUT END-->
-
-              <!--MONTLY EARNINGS BEGIN-->
-              <?php //include 'pages/monthly_earnings.php'; ?>
-              <!--MONTLY EARNINGS END-->
-
-            </div>
-          </div>
-        </div>
-        <div class="row">
-
-          <!--RECENT TRANSACTIONS BEGIN-->
-          <?php //include 'pages/recent_transactions.php';?>
-          <!--RECENT TRANSACTIONS END-->
-
-          <!--RECENT TRANSACTION TABLE BEGIN-->
-          <?php include 'pages/recent_transactions_table.php';?>
-          <!--RECENT TRANSACTION TABLE END-->
-
-        </div>
-
-        <div class="row">
-
-          <!--PRODUCT OVERVIEW BEGIN-->
-          <?php //include 'pages/product_overview.php';?>
-          <!--PRODUCT OVERVIEW END-->
-
-        </div>
+      <!--RECENT TRANSACTION TABLE BEGIN-->
+        <?php include 'pages/recent_transactions_table.php';?>
+        <!--RECENT TRANSACTION TABLE END-->
 
         <!--COPY BEGIN-->
         <?php include 'pages/copy.php'; ?>
