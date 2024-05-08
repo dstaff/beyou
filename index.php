@@ -3,12 +3,13 @@
 
 <!--HEAD BEGIN-->
 <?php 
-  $title = "INICIO";
+  $title = "BeYou";
   include 'pages/head.php';
 ?>
 <!--HEADN END-->
 
 <body>
+  
   <!--  Body Wrapper -->
   <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
     data-sidebar-position="fixed" data-header-position="fixed">
@@ -26,7 +27,7 @@
         
       <div class="container-fluid">
 
-      <!--RECENT TRANSACTION TABLE BEGIN-->
+        <!--RECENT TRANSACTION TABLE BEGIN-->
         <?php include 'pages/recent_transactions_table.php';?>
         <!--RECENT TRANSACTION TABLE END-->
 
