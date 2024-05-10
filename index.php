@@ -26,10 +26,24 @@
         <!--HEADER END-->
         
       <div class="container-fluid">
+      
+      <!--REFERAL LINK BEGIN-->
+      <?php include 'panel/referal_link_panel_widget.php';?>
+      <!--REFERAL LINK END-->
 
-        <!--RECENT TRANSACTION TABLE BEGIN-->
-        <?php include 'pages/recent_transactions_table.php';?>
-        <!--RECENT TRANSACTION TABLE END-->
+      <div class="row">
+        <!--INDICADOS WIDGET BEGIN-->
+        <?php include 'panel/indicados_panel_widget.php';?>
+        <!--INDICADOS WIDGET END-->
+
+        <!--DONANCIONES RECIBIDAS WIDGET BEGIN-->
+        <?php include 'panel/donacionanes_recibidas_panel_widget.php';?>
+        <!--DONACIONES RECIBIDAS WIDGET END-->
+      </div>
+
+      <!--TABLA BEGIN-->
+      <?php include 'pages/recent_transactions_table.php';?>
+      <!--TABLA END-->
 
         <!--COPY BEGIN-->
         <?php include 'pages/copy.php'; ?>
