@@ -4,7 +4,7 @@
 <!--HEAD BEGIN-->
 <?php 
   $title = "BeYou";
-  include 'pages/head.php';
+  include '../pages/head.php';
 ?>
 <!--HEADN END-->
 
@@ -15,7 +15,7 @@
     data-sidebar-position="fixed" data-header-position="fixed">
 
     <!--MENU BEGIN-->
-    <?php include 'pages/menu.php'; ?>
+    <?php include '../pages/menu.php'; ?>
     <!--MENU END-->
 
     <!--  Main wrapper -->
@@ -28,25 +28,25 @@
       <div class="container-fluid">
       
       <!--REFERAL LINK BEGIN-->
-      <?php include 'panel/referal_link_panel_widget.php';?>
+      <?php include 'referal_link_panel_widget.php';?>
       <!--REFERAL LINK END-->
 
       <div class="row">
         <!--INDICADOS WIDGET BEGIN-->
-        <?php include 'panel/indicados_panel_widget.php';?>
+        <?php include 'indicados_panel_widget.php';?>
         <!--INDICADOS WIDGET END-->
 
         <!--DONANCIONES RECIBIDAS WIDGET BEGIN-->
-        <?php include 'panel/donacionanes_recibidas_panel_widget.php';?>
+        <?php include 'donacionanes_recibidas_panel_widget.php';?>
         <!--DONACIONES RECIBIDAS WIDGET END-->
       </div>
 
       <!--TABLA BEGIN-->
-      <?php include 'pages/recent_transactions_table.php';?>
+      <?php include '../pages/recent_transactions_table.php';?>
       <!--TABLA END-->
 
         <!--COPY BEGIN-->
-        <?php include 'pages/copy.php'; ?>
+        <?php include '../pages/copy.php'; ?>
         <!--COPY END-->
 
       </div>
@@ -54,7 +54,7 @@
   </div>
 
   <!--SCRIPTS BEGIN-->
-  <?php include 'pages/scripts.php'?>
+  <?php include '../pages/scripts.php'?>
   <!--SCRIPTS END-->
 
 </body>
