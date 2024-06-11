@@ -25,7 +25,7 @@
                       <i class="ti ti-lock fs-6"></i>
                       <p class="mb-0 fs-3">Cambiar Password</p>
                     </a>
-                    <a href="./authentication-login.html" class="btn btn-outline-primary mx-3 mt-2 d-block">Salir</a>
+                    <a href="../login/logout.php class="btn btn-outline-primary mx-3 mt-2 d-block">Salir</a>
                   </div>
                 </div>
               </li>
