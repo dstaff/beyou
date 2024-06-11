@@ -17,6 +17,6 @@ jobs:
     steps:
       - name: UPDATE APPLICATION
         run: |
-          cd /var/www/
+          cd /var/www/beyou
           git fetch
           git pull
