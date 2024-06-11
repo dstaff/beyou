@@ -5,7 +5,7 @@
         <div class="brand-logo d-flex align-items-center justify-content-between">
           <a href="#" class="text-nowrap logo-img">
             <!--img height="50" src="assets/images/logos/new_logo.svg" width="50" alt="" style="float:left; margin-right: 20px;" /-->
-            <img valing="center" src="assets/images/logos/new_logo.svg" alt=""/>
+            <img valing="center" src="../assets/images/logos/new_logo.svg" alt=""/>
             <!--h1 class="fw-semibold">BeYoou</h1-->
           </a>
           <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
