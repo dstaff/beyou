@@ -4,7 +4,7 @@
 <!--HEAD BEGIN-->
 <?php 
   $title = "BeYou";
-  include '../../pages/head.php';
+  include '../pages/head.php';
 ?>
 <!--HEADN END-->
 
@@ -22,7 +22,7 @@
     <div class="body-wrapper">
 
         <!--HEADER BEGIN-->
-        <?php include '../../pages/header.php'; ?>
+        <?php include '../pages/header.php'; ?>
         <!--HEADER END-->
         
       <div class="container-fluid">
@@ -42,11 +42,11 @@
       </div>
 
       <!--TABLA BEGIN-->
-      <?php include '../../pages/recent_transactions_table.php';?>
+      <?php include '../pages/recent_transactions_table.php';?>
       <!--TABLA END-->
 
         <!--COPY BEGIN-->
-        <?php include '../../pages/copy.php'; ?>
+        <?php include '../pages/copy.php'; ?>
         <!--COPY END-->
 
       </div>
@@ -54,7 +54,7 @@
   </div>
 
   <!--SCRIPTS BEGIN-->
-  <?php include '../../pages/scripts.php'?>
+  <?php include '../pages/scripts.php'?>
   <!--SCRIPTS END-->
 
 </body>
