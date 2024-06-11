@@ -36,7 +36,8 @@
                   <div class="d-flex align-items-center justify-content-between mb-4">
                     <a class="text-primary fw-bold" href="./index.html">Olvido su  ?</a>
                   </div>
-                  <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Ingresar</a>
+                  <input type="submit" value="Ingresar" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">
+                  <!--a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Ingresar</a-->
                   <div class="d-flex align-items-center justify-content-center">
                     <p class="fs-4 mb-0 fw-bold">Eres Nuevo?</p>
                     <a class="text-primary fw-bold ms-2" href="./authentication-register.html">Crear cuenta</a>
