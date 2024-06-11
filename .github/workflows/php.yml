@@ -17,7 +17,6 @@ jobs:
     steps:
       - name: UPDATE APPLICATION
         run: |
-          cd /var/www/html/this-app
-          git config --global --add safe.directory /var/www/html/this-app
+          cd /var/www/
           git fetch
           git pull
