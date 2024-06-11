@@ -1,0 +1,23 @@
+name: PHP Core App
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: self-hosted
+
+    steps:
+      - name: UPDATE APPLICATION
+        run: |
+          cd /var/www/html/this-app
+          git config --global --add safe.directory /var/www/html/this-app
+          git fetch
+          git pull
